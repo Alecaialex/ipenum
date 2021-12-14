@@ -7,5 +7,5 @@ for complete in $(seq 1 255); do
         continue;
     }
     ttl="${ttlstr#*=}"
-    printf "%s está online, ttl=%d\n" "$ip.$complete" "$ttl"
+    printf "%s online, ttl=%d\n" "$ip.$complete" "$ttl"
 done
